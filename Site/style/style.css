@@ -1,0 +1,82 @@
+.my-container{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.my-col{
+	background-color: #DDDDDD;
+	border-radius: 5px;
+	height: 250px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.my-link{
+	color: #f7ff00;
+}
+
+.my-link:hover{
+	color: #f7ff00;
+}
+
+.carousel-image{
+	filter: brightness(64%);
+}
+
+@media (min-width: 768px) {
+	.centered-text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 400%;
+		text-align: center;
+		font-weight: 800;
+		text-shadow: 1px 1px 3px black;
+		z-index: 10;
+		cursor: default;
+	}
+}
+
+@media (min-width: 576px) {
+	.centered-text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		font-weight: 800;
+		text-shadow: 1px 1px 3px black;
+		z-index: 10;
+		cursor: default;
+	}
+}
+
+@media (max-width: 576px) {
+	.centered-text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 200%;
+		text-align: center;
+		font-weight: 800;
+		text-shadow: 1px 1px 3px black;
+		z-index: 10;
+		cursor: default;
+	}
+}
+
+.centered-icon {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	  font-weight: 800;
+	}
+
+.fas{
+  font-size: 1200%;
+  color: #0d056c;
+}
