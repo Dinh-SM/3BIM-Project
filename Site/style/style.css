@@ -3,12 +3,35 @@
 	margin-bottom: 1%;
 }
 
+.my-title{
+	font-size: 400%;
+	font-weight: 800;
+}
+
 .my-col{
 	background-color: #DDDDDD;
 	border-radius: 5px;
 	height: 250px;
 	margin-top: 1%;
 	margin-bottom: 1%;
+	padding: 2%;
+}
+
+.my-col-2{
+	background-color: #DDDDDD;
+	border-radius: 5px;
+	height: 500px;
+	margin: 1%;
+	padding: 2%;
+}
+
+.my-col-3{
+	background-color: #DDDDDD;
+	border-radius: 5px;
+	height: 250px;
+	max-width: 30%;
+	margin: 1%;
+	padding: 2%;
 }
 
 .my-link{
