@@ -34,6 +34,15 @@
 	padding: 2%;
 }
 
+.my-col-4{
+	background-color: #DDDDDD;
+	border-radius: 250px;
+	height: 250px;
+	max-width: 250px;
+	margin: 1%;
+	padding: 2%;
+}
+
 .my-link{
 	color: #f7ff00;
 }
@@ -91,15 +100,24 @@
 }
 
 .centered-icon {
-	  position: absolute;
-	  top: 50%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
-	  text-align: center;
-	  font-weight: 800;
-	}
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 800;
+}
 
-.fas{
+.big-icon{
   font-size: 1200%;
   color: #0d056c;
+}
+
+.medium-icon{
+  font-size: 800%;
+  color: #0d056c;
+}
+
+.my-jumbotron{
+	background-color: #0f101e;
 }
