@@ -72,6 +72,15 @@
   text-decoration: none;
 }
 
+.my-link-3{
+  color: #c1c800;
+}
+
+.my-link-3:hover{
+  color: #d1d900;
+  text-decoration: none;
+}
+
 .my-resources-div{
    width: 100%;
    min-height: 80%;
