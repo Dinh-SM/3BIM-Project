@@ -27,7 +27,7 @@
 .my-col-3{
 	background-color: #EEEEEE;
 	border-radius: 5px;
-	height: 250px;
+  min-height: 350px;
 	margin: 1%;
 	padding: 2%;
 }
@@ -47,12 +47,31 @@
   min-width: 101%;
 }
 
+.my-col-5{
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  min-height: 200px;
+  margin: 1%;
+  padding: 2%;
+}
+
 .my-link{
 	color: #f7ff00;
 }
 
 .my-link:hover{
 	color: #f7ff00;
+}
+
+.my-resources-div{
+   width: 100%;
+   min-height: 80%;
+   display:flex;
+   align-items:center;
+}
+
+.my-resources-div>a{
+   width: 100%;
 }
 
 .carousel-image{
@@ -80,7 +99,16 @@ p{
   .my-col-3{
     background-color: #EEEEEE;
     border-radius: 5px;
-    height: 250px;
+    min-height: 350px;
+    max-width: 30%;
+    margin: 1%;
+    padding: 2%;
+  }
+
+  .my-col-5{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    min-height: 200px;
     max-width: 30%;
     margin: 1%;
     padding: 2%;
