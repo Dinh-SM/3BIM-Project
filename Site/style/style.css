@@ -50,7 +50,14 @@
 .my-col-5{
   background-color: #EEEEEE;
   border-radius: 5px;
-  min-height: 200px;
+  margin: 1%;
+  padding: 2%;
+}
+
+.my-col-6{
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  min-height: 350px;
   margin: 1%;
   padding: 2%;
 }
@@ -128,6 +135,15 @@ p{
     border-radius: 5px;
     min-height: 200px;
     max-width: 30%;
+    margin: 1%;
+    padding: 2%;
+  }
+
+  .my-col-6{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    min-height: 350px;
+    max-width: 23%;
     margin: 1%;
     padding: 2%;
   }
